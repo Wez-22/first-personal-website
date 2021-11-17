@@ -3,11 +3,17 @@
 <html>
 <style>
     body {
-        background-color: white;
+        background-color: rgb(202, 202, 202);
         background-size: cover;
         background-position: center center;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 20px;
+        background-image: url(Images/background-2462431_1280-738x492.jpg);
+    }
+
+    p {
+        color: rgb(0, 0, 0);
+        text-align: center;
     }
 
     text {
@@ -19,25 +25,81 @@
     h1 {
         color: white;
         text-align: center;
-        font-size: 40px;
-        background-color: #00000096;
-        border: outset rgb(255, 0, 0);
+        font-size: 35px;
+        background-color: #7b7b7b96;
+        border: groove rgb(255, 255, 255);
     }
 
     h2 {
         color: white;
         text-align: center;
-        font-size: 40px;
-        background-color: #00000096;
-        border: outset rgb(255, 0, 0);
+        font-size: 30px;
+        background-color: #7b7b7b96;
+        border: groove rgb(255, 255, 255);
     }
 
     h3 {
         color: white;
         text-align: center;
-        font-size: 20px;
-        background-color: #00000096;
-        border: outset rgb(255, 0, 0);
+        font-size: 25px;
+        background-color: #7b7b7b96;
+        border: groove rgb(255, 255, 255);
+
+    }
+
+    .container {
+        margin: auto;
+        width: 1500px;
+        height: 205px;
+        border: groove rgb(255, 255, 255);
+    }
+
+    .left {
+        width: 744px;
+        height: 200px;
+        float: left;
+        border: groove rgb(255, 255, 255);
+    }
+
+    .right {
+        width: 744px;
+        height: 200px;
+        float: right;
+        border: groove rgb(255, 255, 255);
+    }
+
+    ul {
+        text-align: center;
+        list-style: none;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+        height: 50%;
+    }
+
+    img {
+        border-radius: 70%;
+        border: 5px groove #49494996;
+    }
+
+    .contact {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        align-items: center;
+        display: inline-block;
+    }
+
+    .end-container {
+        margin: auto;
+        width: 1500px;
+        height: 100px;
+        background-color: #7b7b7b96;
+        border: groove rgb(255, 255, 255);
     }
 </style>
 
@@ -48,23 +110,23 @@
 <body>
     <div>
         <h1>
-            Wesley Jackson
+            Wesley Jackson <br> Future Data Scientist
         </h1>
-        <h2>
-            Future Data Scientist
-        </h2>
+    </div>
+    <div>
+        <img src="Images/hottest-jobs-data-science-right-now-955x440.jpeg.optimal.jpeg" alt="graphs" class="center">
     </div>
     <div>
         <h2>
             About me
         </h2>
         <p>
-            A dedicated and result-driven individual with a highly motivated mindset.
-            Hardworking and enjoy being part of, as well as leading a successful and
-            productive team. Able to work well on own initiative and demonstrate the
-            high level of motivation required to meet the toughest deadlines, even under
-            immense pressure, possess a strong ability to perform effectively. One of my
-            greatest qualities is the ability to do whatever it takes to get the job done
+            A dedicated and result-driven individual with a highly motivated mindset. <br>
+            Hardworking and enjoy being part of, as well as leading a successful and <br>
+            productive team. Able to work well on own initiative and demonstrate the <br>
+            high level of motivation required to meet the toughest deadlines, even under <br>
+            immense pressure, possess a strong ability to perform effectively. One of my <br>
+            greatest qualities is the ability to do whatever it takes to get the job done <br>
             and never give up.
         </p>
     </div>
@@ -72,49 +134,50 @@
         <h2>
             Skills
         </h2>
-        <h3>
-            Programming languages
-        </h3>
-        <ul>
-            <li>Python</li>
-            <li>SQL</li>
-            <li>HTML</li>
-            <li>CSS</li>
-        </ul>
-        <h3>
-            General
-        </h3>
-        <ul>
-            <li>Mathematics</li>
-            <li>Problem solving</li>
-            <li>Open-minded</li>
-            <li>Analytical</li>
-        </ul>
+        <div class="container">
+            <div class="left">
+                <h3>
+                    Programming languages
+                </h3>
+                <ul>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+            <div class="right">
+                <h3>
+                    General
+                </h3>
+                <ul>
+                    <li>Mathematics</li>
+                    <li>Problem solving</li>
+                    <li>Open-minded</li>
+                    <li>Analytical</li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <div>
+    <div class="contact">
         <h2>
-            Contact
+            Contact information
         </h2>
-        <p>e-mail: </p>
         <a href="mailto:wesley.jackson@umuzi.org">
-            <p>
-                wesley.jackson@umuzi.org
-            </p><br>
+            <img src="https://img.icons8.com/color/50/000000/gmail--v1.png" width="100" height="100">
         </a>
-        <p>Phone: </p>
         <a href="tel:+27762878649">
-            <p>
-                +27762878649
-            </p>
-        </a> <br>
-        </a><br>
-        <p>Github: </p>
-        <a href="https://github.com/Wez-22" target="_blank">
-            <p>
-                Wez-22
-            </p>
+            <img src="https://img.icons8.com/color/48/000000/apple-phone.png" width="100" height="100">
+        </a>
+        <a href="https://github.com/Wez-22">
+            <img src="https://img.icons8.com/fluency/50/000000/github.png" width="100" height="100">
+        </a>
     </div>
-
+    <div class="end-container">
+        <p>
+            Email: wesley.jackson@umuzi.org <br><br> Phone number: 076 287 8649
+        </p>
+    </div>
 </body>
 
 </html>
