@@ -1,2 +1,2 @@
-# Wesley Jackson personal website
+# https://wez-22.github.io/first-personal-website/
 
