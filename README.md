@@ -1,2 +1,2 @@
-# https://wez-22.github.io/first-personal-website/
+# https://wez-22.github.io/personal-website/
 
