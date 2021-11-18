@@ -1,3 +1,5 @@
+@media only screen and (max-width:768px){
+
 body {
     background-color: rgb(202, 202, 202);
     background-size: cover;
@@ -99,13 +101,4 @@ img {
     background-color: #7b7b7b96;
     border: groove rgb(255, 255, 255);
 }
-
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
-}
-
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
 }
