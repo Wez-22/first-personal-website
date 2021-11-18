@@ -8,6 +8,10 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
+.content {
+    max-width: 500px;
+    margin: auto;
+  }
 
 p {
     color: rgb(0, 0, 0);
@@ -44,12 +48,6 @@ h3 {
 
 }
 
-.container {
-    margin: auto;
-    width: 1500px;
-    height: 205px;
-    border: groove rgb(255, 255, 255);
-}
 
 .left {
     width: 744px;
@@ -63,11 +61,6 @@ h3 {
     height: 200px;
     float: right;
     border: groove rgb(255, 255, 255);
-}
-
-ul {
-    text-align: center;
-    list-style: none;
 }
 
 .center {
@@ -91,10 +84,8 @@ img {
     display: inline-block;
 }
 
-.end-container {
-    margin: auto;
-    width: 1500px;
-    height: 100px;
-    background-color: #7b7b7b96;
-    border: groove rgb(255, 255, 255);
-}
+
+ul {
+    display: table;
+    margin: 0 auto;
+  }
